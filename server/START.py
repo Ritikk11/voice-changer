@@ -113,7 +113,7 @@ def localServer(logLevel: str = "critical"):
         print("[Voice Changer] Web Server Launch Exception", e)
 
 
-if __name__ == "MMVCServerSIO":
+if __name__ == "START":
     mp.freeze_support()
 
     voiceChangerManager = VoiceChangerManager.get_instance(voiceChangerParams)
